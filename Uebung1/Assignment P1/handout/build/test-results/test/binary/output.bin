@@ -1,0 +1,15 @@
+
+ - Server: Server is running...
+<- Client: Find server ---> //localhost/sessionFactoryTest2
+ - Server: New session created.
+
++- Client: Start calculation by using RMI 
+ - Client: CalcMode is ---> ADD
+'- Client: Operands are ---> [1, 2, 3]
+
++- Client: Start calculation by using RMI 
+ - Client: CalcMode is ---> SUB
+'- Client: Operands are ---> [3, 2, 1]
+ - Client: The result is ---> 0
+
+- Server: Disconnected
